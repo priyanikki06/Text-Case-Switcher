@@ -39,7 +39,7 @@ function App() {
   return (
     <>
     <Router>
-   <Navbar title="Text-Case-Switch" aboutText="About" Homeinfo="Home" mode={mode} toggleMode={toggleMode}/>
+   <Navbar title="Text-Case-Switcher" aboutText="About" Homeinfo="Home" mode={mode} toggleMode={toggleMode}/>
    <Alert alert={alert}/>
     
     
