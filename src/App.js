@@ -48,8 +48,8 @@ function App() {
           <Route exact path="/Home" element={<TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode} />} /> {/* Update route declaration */}
         </Routes>
     </Router>
-     <Footer/>
-     <Todos/>
+    {/* <Footer/>
+     <Todos/>*/}
     </>
 
   );
